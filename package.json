@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node dist/programistyczne-4_zadanie-2.js",
+    "build": "npx tsc -p tsconfig.json",
+    "tests": "node dist/tests/tests.js",
+    "ctests": "npx tsc -p tsconfig.json && node dist/tests/tests.js",
+    "cstart": "npm run build && npm run start"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  }
+}
